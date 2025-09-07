@@ -1,0 +1,17 @@
+<nav class="bg-gray-900 shadow-lg relative z-10">
+  <div class="container mx-auto px-6 py-4 flex items-center justify-between">
+    <div class="flex items-center">
+      <a href="#">
+        <img src="assets/logo.png" alt="Logo Aziendale" class="h-16 ">
+      </a>
+    </div>
+
+    <ul class="flex items-center space-x-8 text-sm font-medium">
+      <li><a routerLink="homepage" routerLinkActive="text-accent-green font-semibold border-b-2 border-accent-green" [routerLinkActiveOptions]="{exact: true}" class="text-gray-300 hover:text-accent-green transition-colors duration-300">Home</a></li>
+      <li><a routerLink="azienda" routerLinkActive="text-accent-green font-semibold border-b-2 border-accent-green" class="text-gray-300 hover:text-accent-green transition-colors duration-300">L'azienda</a></li>
+      <li><a href="http://ecommerce.dasricambi.it/" class="text-gray-300 hover:text-accent-green transition-colors duration-300">Ecommerce</a></li>
+      <li><a routerLink="contatti" routerLinkActive="text-accent-green font-semibold border-b-2 border-accent-green" class="text-gray-300 hover:text-accent-green transition-colors duration-300">Contatti</a></li>
+    </ul>
+  </div>
+  <hr class="border-t border-gray-700">
+</nav>
